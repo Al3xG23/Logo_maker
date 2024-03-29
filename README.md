@@ -40,10 +40,10 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Sample SVG 
 
-
+![alt text](image.png)
 
 ## Link to Repo
 
-
+https://github.com/Al3xG23/Logo_maker
 
 ## Walkthrough Video 
