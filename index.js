@@ -47,8 +47,8 @@ const userColorsText = () => {
                             <html>
                             <body>                             
                             <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-                            <text font-size="50" text-anchor="middle" fill="${color}">${text}</text>
                             <polygon points="149,10 298,199 10,199" fill="${color2}"/>
+                            <text font-size="50" x="50%" y="50%" dominant-baseline="hanging" text-anchor="middle" fill="${color}">${text}</text>
                             </svg>                             
                             </body>
                             </html>`;
@@ -66,9 +66,9 @@ const userColorsText = () => {
                             `<!DOCTYPE html>
                             <html>
                             <body>
-                            <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-                            <text font-size="50" text-anchor="middle" fill="${color}">${text}</text>
+                            <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">                           
                             <rect width="200" height="200" x="10" y="10" fill="${color2}"/>
+                            <text font-size="50" x="50%" y="50%" dominant-baseline="central" text-anchor="end" fill="${color}">${text}</text>
                             </svg>
                             /body>
                             </html>`;
@@ -81,14 +81,14 @@ const userColorsText = () => {
                     }
 
                     if (shape === "circle") {
-                        const circle = ({ text, color, color2 }) => {
+                        const circle = () => {
                             const logo =
                                 `<!DOCTYPE html>
                                 <html>
                                 <body>                                    
                                 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-                                <text font-size="50" text-anchor="middle" fill="${color}">${text}</text>
                                 <circle r="100" cx="150" cy="100" fill="${color2}"/>
+                                <text font-size="50" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="${color}">${text}</text>
                                 </svg>                                    
                                 </body>
                                 </html>`;
