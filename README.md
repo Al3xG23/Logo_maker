@@ -47,3 +47,5 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 https://github.com/Al3xG23/Logo_maker
 
 ## Walkthrough Video 
+
+https://drive.google.com/file/d/1wz9Fd9dxOfueGcl2Jky6vqzHPQbqgx36/view
