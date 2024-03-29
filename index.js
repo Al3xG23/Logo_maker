@@ -41,13 +41,13 @@ const userColorsText = () => {
                 .then((choices) => {
                     let shape = choices.shape;
                     if (shape === "triangle") {
-                        const triangle = () => {                            
+                        const Triangle = () => {                            
                             const logo = 
                             `<!DOCTYPE html>
                             <html>
                             <body>                             
                             <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-                            <polygon points="149,10 298,199 10,199" fill="${color2}"/>
+                            <polygon points="150, 18 244, 182 56, 182" fill="${color2}"/>
                             <text font-size="50" x="50%" y="50%" dominant-baseline="hanging" text-anchor="middle" fill="${color}">${text}</text>
                             </svg>                             
                             </body>
@@ -57,11 +57,11 @@ const userColorsText = () => {
                              err ? console.log(err) : console.log('Generated logo.svg')
                              );
                         };
-                         triangle();
+                         Triangle();
                     }
 
                     if (shape === "square") {
-                        const square = () => {
+                        const Square = () => {
                             const logo =
                             `<!DOCTYPE html>
                             <html>
@@ -77,11 +77,11 @@ const userColorsText = () => {
                             err ? console.log(err) : console.log('Generated logo.svg')
                             );
                         };
-                        square();
+                        Square();
                     }
 
                     if (shape === "circle") {
-                        const circle = () => {
+                        const Circle = () => {
                             const logo =
                                 `<!DOCTYPE html>
                                 <html>
@@ -97,7 +97,7 @@ const userColorsText = () => {
                                 err ? console.log(err) : console.log('Generated logo.svg')
                             );
                         };
-                        circle();
+                        Circle();
                     }
                 });
             }
