@@ -70,7 +70,7 @@ const userColorsText = () => {
                             <rect width="200" height="200" x="10" y="10" fill="${color2}"/>
                             <text font-size="50" x="50%" y="50%" dominant-baseline="central" text-anchor="end" fill="${color}">${text}</text>
                             </svg>
-                            /body>
+                            </body>
                             </html>`;
     
                             fs.writeFile('logo.svg', logo, (err) =>
